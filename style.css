@@ -1,0 +1,25 @@
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	width: 500px;
+	height: 500px;
+	margin: 50px 50px;
+
+}
+.elem{
+	height: 85px;
+	width: 85px;
+	background: orange;
+}
+.round{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	top: 57px;
+	left: 65px;
+	transition: 0.3s;
+
+}
